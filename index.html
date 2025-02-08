@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Генератор случайных чисел</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="theme-switcher">
+        <button id="themeToggle" class="theme-btn">
+            <span class="light-icon">☀️</span>
+            <span class="dark-icon">🌙</span>
+        </button>
+    </div>
+    <div class="lang-switcher">
+        <button id="langToggle" class="lang-btn">EN/RU</button>
+    </div>
+    <div class="container">
+        <h1>Генератор случайных чисел</h1>
+        <div class="input-group">
+            <div class="input-field">
+                <label for="min">Минимальное значение:</label>
+                <input type="number" id="min" value="1">
+            </div>
+            <div class="input-field">
+                <label for="max">Максимальное значение:</label>
+                <input type="number" id="max" value="100">
+            </div>
+        </div>
+        <button id="generate" class="btn">Сгенерировать число</button>
+        <div class="result-container">
+            <div id="result" class="result">0</div>
+            <button id="copy" class="btn copy-btn">
+                <span class="copy-text">Копировать</span>
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
