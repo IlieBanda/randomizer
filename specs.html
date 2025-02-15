@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Характеристики - Мир Raspberry Pi 5</title>
+    <link rel="icon" type="image/png" href="pico.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <div class="nav-header">
+                <div class="logo">
+                    <a href="index.html"><h1>Мир Raspberry Pi 5</h1></a>
+                </div>
+                <button class="mobile-menu-toggle">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="specs.html" class="active">Характеристики</a></li>
+                <li><a href="os.html">Операционные системы</a></li>
+                <li><a href="projects.html">Применение</a></li>
+                <li><a href="about.html">Об авторе</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section specs-detailed">
+            <div class="specs-header">
+                <h1>Технические характеристики Raspberry Pi 5</h1>
+                <p class="specs-subtitle">Полный обзор возможностей нового поколения одноплатного компьютера</p>
+            </div>
+            
+            <div class="specs-container">
+                <div class="spec-category">
+                    <h2>Процессор и графика</h2>
+                    <ul class="spec-list">
+                        <li><strong>CPU:</strong> Broadcom BCM2712, 2.4 ГГц четырехъядерный 64-бит Arm Cortex-A76</li>
+                        <li><strong>Кэш:</strong> 512 КБ L2 на ядро, 2 МБ общий L3</li>
+                        <li><strong>GPU:</strong> VideoCore VII с поддержкой OpenGL ES 3.1 и Vulkan 1.2</li>
+                        <li><strong>Видео:</strong> 4Kp60 HEVC декодер</li>
+                        <li><strong>Дисплей:</strong> Двойной вывод 4Kp60 HDMI с HDR</li>
+                    </ul>
+                </div>
+
+                <div class="spec-category">
+                    <h2>Память и хранение</h2>
+                    <ul class="spec-list">
+                        <li><strong>RAM:</strong> LPDDR4X-4267 (2/4/8/16 ГБ варианты)</li>
+                        <li><strong>Хранение:</strong> microSD с поддержкой SDR104</li>
+                        <li><strong>PCIe:</strong> PCIe 2.0 x1 интерфейс</li>
+                    </ul>
+                </div>
+
+                <div class="spec-category">
+                    <h2>Интерфейсы</h2>
+                    <ul class="spec-list">
+                        <li><strong>USB:</strong> 2× USB 3.0 (5 Гбит/с), 2× USB 2.0</li>
+                        <li><strong>Сеть:</strong> Gigabit Ethernet с PoE+ (требуется HAT)</li>
+                        <li><strong>Wi-Fi:</strong> Dual-band 802.11ac</li>
+                        <li><strong>Bluetooth:</strong> 5.0 / BLE</li>
+                        <li><strong>Камеры/Дисплеи:</strong> 2× 4-канальных MIPI</li>
+                        <li><strong>GPIO:</strong> 40 контактов</li>
+                    </ul>
+                </div>
+
+                <div class="spec-category">
+                    <h2>Общие характеристики</h2>
+                    <ul class="spec-list">
+                        <li><strong>Питание:</strong> 5V/5A через USB-C (Power Delivery)</li>
+                        <li><strong>Размеры:</strong> 85 × 58 × 29 мм</li>
+                        <li><strong>Дополнительно:</strong> RTC с внешним питанием, кнопка питания</li>
+                        <li><strong>Поддержка:</strong> До января 2036 года</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="comparison">
+                <h2>Сравнение с Raspberry Pi 4 Model B</h2>
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Характеристика</th>
+                            <th>Raspberry Pi 4 Model B</th>
+                            <th>Raspberry Pi 5</th>
+                            <th>Улучшение</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Процессор</td>
+                            <td>1.8 ГГц BCM2711<br>4-ядерный Cortex-A72 (ARM v8)</td>
+                            <td>2.4 ГГц BCM2712<br>4-ядерный Cortex-A76 (64-бит)<br>512 КБ L2 на ядро, 2 МБ L3</td>
+                            <td>+33% частота, новое поколение CPU</td>
+                        </tr>
+                        <tr>
+                            <td>Память</td>
+                            <td>LPDDR4-3200 SDRAM<br>1/2/4/8 ГБ</td>
+                            <td>LPDDR4X-4267 SDRAM<br>2/4/8/16 ГБ</td>
+                            <td>+33% скорость, больше вариантов</td>
+                        </tr>
+                        <tr>
+                            <td>Видео</td>
+                            <td>H.265 (4K 60fps декодирование)<br>H.264 (1080p 60fps декодирование,<br>1080p 30fps кодирование)</td>
+                            <td>4K 60fps HEVC декодер<br>Двойной 4K 60fps HDMI с HDR</td>
+                            <td>Улучшенный декодер</td>
+                        </tr>
+                        <tr>
+                            <td>Графика</td>
+                            <td>OpenGL ES 3.1<br>Vulkan 1.0</td>
+                            <td>OpenGL ES 3.1<br>Vulkan 1.2</td>
+                            <td>Улучшенная поддержка Vulkan</td>
+                        </tr>
+                        <tr>
+                            <td>Беспроводные интерфейсы</td>
+                            <td>Двухдиапазонный 802.11ac Wi-Fi<br>Bluetooth 5.0, BLE</td>
+                            <td>Двухдиапазонный 802.11ac Wi-Fi<br>Bluetooth 5.0, BLE</td>
+                            <td>Улучшенный Wi-Fi</td>
+                        </tr>
+                        <tr>
+                            <td>PCIe</td>
+                            <td>Нет</td>
+                            <td>PCIe 2.0 x1</td>
+                            <td>Поддержка NVMe</td>
+                        </tr>
+                        <tr>
+                            <td>Питание</td>
+                            <td>5V/3A через USB-C</td>
+                            <td>5V/5A через USB-C (Power Delivery)</td>
+                            <td>Увеличенная мощность</td>
+                        </tr>
+                        <tr>
+                            <td>Дополнительно</td>
+                            <td>40-контактный GPIO<br>Поддержка PoE (требуется HAT)</td>
+                            <td>40-контактный GPIO<br>RTC с внешним питанием<br>Кнопка питания</td>
+                            <td>Новые функции</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Мир Raspberry Pi 5</h3>
+                <p>Ваш проводник в мир новейшего одноплатного компьютера от Raspberry Pi Foundation</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Быстрые ссылки</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="specs.html">Характеристики</a></li>
+                    <li><a href="os.html">Операционные системы</a></li>
+                    <li><a href="projects.html">Проекты</a></li>
+                    <li><a href="about.html">Об авторе</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Ресурсы</h3>
+                <ul class="footer-links">
+                    <li><a href="https://www.raspberrypi.com" target="_blank">Официальный сайт</a></li>
+                    <li><a href="https://forums.raspberrypi.com" target="_blank">Форум</a></li>
+                    <li><a href="https://www.raspberrypi.com/documentation" target="_blank">Документация</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Полезные ссылки</h3>
+                <div class="social-links">
+                    <a href="https://t.me/nightcodder" title="Telegram" target="_blank">
+                        <img src="images/telegram.svg" alt="Telegram" class="social-icon">
+                    </a>
+                    <a href="https://github.com/IlieBanda" title="GitHub" target="_blank">
+                        <img src="images/github.svg" alt="GitHub" class="social-icon">
+                    </a>
+                    <a href="mailto:iliebanda8@gmail.com" title="Email">
+                        <img src="images/email.svg" alt="Email" class="social-icon">
+                    </a>
+                    <a href="https://www.donationalerts.com/r/nightmoder?" title="DonationAlerts" target="_blank">
+                        <img src="images/donation.svg" alt="DonationAlerts" class="social-icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p><a href="legal.html">&copy; 2025 Мир Raspberry Pi 5 | Все права защищены</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

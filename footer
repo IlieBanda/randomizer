@@ -1,0 +1,11 @@
+<div class="social-links">
+    <a href="https://t.me/nightcodder" title="Telegram" target="_blank">
+        <img src="images/telegram.svg" alt="Telegram" class="social-icon">
+    </a>
+    <a href="https://github.com/IlieBanda" title="GitHub" target="_blank">
+        <img src="images/github.svg" alt="GitHub" class="social-icon">
+    </a>
+    <a href="mailto:contact@example.com" title="Email">
+        <img src="images/email.svg" alt="Email" class="social-icon">
+    </a>
+</div> 

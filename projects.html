@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проекты - Мир Raspberry Pi 5</title>
+    <link rel="icon" type="image/png" href="pico.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <div class="nav-header">
+                <div class="logo">
+                    <a href="index.html"><h1>Мир Raspberry Pi 5</h1></a>
+                </div>
+                <button class="mobile-menu-toggle">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="specs.html">Характеристики</a></li>
+                <li><a href="os.html">Операционные системы</a></li>
+                <li><a href="projects.html" class="active">Применение</a></li>
+                <li><a href="about.html">Об авторе</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section projects-section">
+            <div class="specs-header">
+                <h1>Проекты на Raspberry Pi 5</h1>
+                <p class="specs-subtitle">Примеры проектов, которые можно реализовать на новом поколении Raspberry Pi с улучшенной производительностью процессора, поддержкой PCIe и расширенными мультимедийными возможностями</p>
+            </div>
+            
+            <div class="projects-grid">
+                <article class="project-card">
+                    <img src="images/retropie.png" alt="Ретро консоль">
+                    <div class="project-content">
+                        <h2>Ретро игровая консоль</h2>
+                        <p>Превратите свой Raspberry Pi в игровую консоль для классических игр. С помощью RetroPie вы сможете запускать игры с NES, SNES, PlayStation и других ретро-платформ.</p>
+                        <h3>Необходимые компоненты:</h3>
+                        <ul>
+                            <li>Raspberry Pi 5</li>
+                            <li>Блок питания (5В, 5А)</li>
+                            <li>USB геймпад или контроллер</li>
+                            <li>microSD карта (32GB рекомендуется)</li>
+                            <li>Корпус с активным охлаждением</li>
+                        </ul>
+                        <a href="https://www.raspberrypi.com/tutorials/retropie-raspberry-pi-tutorial/" class="btn primary" target="_blank">Подробнее</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="images/NAS.jpg" alt="NAS сервер">
+                    <div class="project-content">
+                        <h2>Домашний NAS</h2>
+                        <p>Создайте собственное сетевое хранилище для резервного копирования, хранения медиафайлов и совместного доступа к данным в домашней сети.</p>
+                        <h3>Необходимые компоненты:</h3>
+                        <ul>
+                            <li>Raspberry Pi 5</li>
+                            <li>Блок питания (5В, 5А)</li>
+                            <li>microSD карта (16GB+)</li>
+                            <li>USB или NVMe накопитель</li>
+                            <li>Ethernet кабель</li>
+                            <li>Корпус с охлаждением</li>
+                        </ul>
+                        <a href="https://www.raspberrypi.com/tutorials/nas-box-raspberry-pi-tutorial/" class="btn primary" target="_blank">Подробнее</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="images/cluster.jpg" alt="Raspberry Pi кластер">
+                    <div class="project-content">
+                        <h2>Кластер из Raspberry Pi</h2>
+                        <p>Создайте свой собственный мини-суперкомпьютер, объединив несколько Raspberry Pi в вычислительный кластер. Идеально подходит для изучения распределенных вычислений и параллельной обработки данных.</p>
+                        <h3>Необходимые компоненты:</h3>
+                        <ul>
+                            <li>8 x Raspberry Pi 5</li>
+                            <li>8 x Raspberry Pi PoE+ HAT</li>
+                            <li>8-портовый Gigabit PoE коммутатор</li>
+                            <li>USB 3 to Gigabit Ethernet адаптер</li>
+                            <li>USB 3 to SATA адаптер</li>
+                            <li>SSD SATA накопитель</li>
+                            <li>8 x Ethernet кабели</li>
+                            <li>microSD карты (16GB+)</li>
+                            <li>Корпус для кластера</li>
+                        </ul>
+                        <a href="https://www.raspberrypi.com/tutorials/cluster-raspberry-pi-tutorial/" class="btn primary" target="_blank">Подробнее</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="images/pihole.png" alt="Pi-hole DNS сервер">
+                    <div class="project-content">
+                        <h2>Pi-hole DNS сервер</h2>
+                        <p>Создайте собственный DNS сервер для блокировки рекламы на уровне сети. Pi-hole защищает все устройства в вашей домашней сети от нежелательной рекламы и трекеров.</p>
+                        <h3>Необходимые компоненты:</h3>
+                        <ul>
+                            <li>Raspberry Pi 5</li>
+                            <li>Блок питания (5В, 5А)</li>
+                            <li>microSD карта (8GB+)</li>
+                            <li>Ethernet кабель</li>
+                            <li>Корпус с охлаждением</li>
+                        </ul>
+                        <a href="https://www.raspberrypi.com/tutorials/running-pi-hole-on-a-raspberry-pi/" class="btn primary" target="_blank">Подробнее</a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="more-projects">
+                <a href="https://www.raspberrypi.com/tutorials/" class="btn primary" target="_blank">Больше проектов</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Мир Raspberry Pi 5</h3>
+                <p>Ваш проводник в мир новейшего одноплатного компьютера от Raspberry Pi Foundation</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Быстрые ссылки</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="specs.html">Характеристики</a></li>
+                    <li><a href="os.html">Операционные системы</a></li>
+                    <li><a href="projects.html">Проекты</a></li>
+                    <li><a href="about.html">Об авторе</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Ресурсы</h3>
+                <ul class="footer-links">
+                    <li><a href="https://www.raspberrypi.com" target="_blank">Официальный сайт</a></li>
+                    <li><a href="https://forums.raspberrypi.com" target="_blank">Форум</a></li>
+                    <li><a href="https://www.raspberrypi.com/documentation" target="_blank">Документация</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Полезные ссылки</h3>
+                <div class="social-links">
+                    <a href="https://t.me/nightcodder" title="Telegram" target="_blank">
+                        <img src="images/telegram.svg" alt="Telegram" class="social-icon">
+                    </a>
+                    <a href="https://github.com/IlieBanda" title="GitHub" target="_blank">
+                        <img src="images/github.svg" alt="GitHub" class="social-icon">
+                    </a>
+                    <a href="mailto:iliebanda8@gmail.com" title="Email">
+                        <img src="images/email.svg" alt="Email" class="social-icon">
+                    </a>
+                    <a href="https://www.donationalerts.com/r/nightmoder?" title="DonationAlerts" target="_blank">
+                        <img src="images/donation.svg" alt="DonationAlerts" class="social-icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p><a href="legal.html">&copy; 2025 Мир Raspberry Pi 5 | Все права защищены</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

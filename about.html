@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мир Raspberry Pi 5</title>
+    <title>Об авторе - Мир Raspberry Pi 5</title>
     <link rel="icon" type="image/png" href="pico.png">
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -19,43 +19,70 @@
                 </button>
             </div>
             <ul class="nav-links">
-                <li><a href="index.html" class="active">Главная</a></li>
+                <li><a href="index.html">Главная</a></li>
                 <li><a href="specs.html">Характеристики</a></li>
                 <li><a href="os.html">Операционные системы</a></li>
                 <li><a href="projects.html">Применение</a></li>
-                <li><a href="about.html">Об авторе</a></li>
+                <li><a href="about.html" class="active">Об авторе</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section id="home" class="section hero">
-            <div class="hero-content">
-                <h1>Raspberry Pi 5</h1>
-                <p class="hero-subtitle">Новое поколение самого популярного одноплатного компьютера</p>
-                
-                <div class="hero-features">
-                    <div class="feature">
-                        <span class="feature-icon">💻</span>
-                        <h3>Мощный процессор</h3>
-                        <p>2.4 ГГц четырехъядерный Arm Cortex-A76 с 2 МБ L3 кэша</p>
-                    </div>
-                    
-                    <div class="feature">
-                        <span class="feature-icon">🎮</span>
-                        <h3>Продвинутая графика</h3>
-                        <p>VideoCore VII с поддержкой OpenGL ES 3.1, Vulkan 1.2 и HDR</p>
-                    </div>
-                    
-                    <div class="feature">
-                        <span class="feature-icon">💾</span>
-                        <h3>Больше памяти</h3>
-                        <p>До 16 ГБ LPDDR4X-4267 и поддержка NVMe через PCIe</p>
+        <section class="section about-section">
+            <div class="about-content">
+                <div class="author-info">
+                    <img src="images/author.jpg" alt="Фото автора" class="author-photo">
+                    <div class="author-details">
+                        <h1>Об авторе</h1>
+                        <p class="author-bio">Меня зовут Илья, увлекаюсь разработкой на одноплатных компьютерах. Активно изучаю и работаю с Raspberry Pi, создаю проекты для дома и учебы.</p>
+                        <div class="author-expertise">
+                            <h2>Области интересов:</h2>
+                            <ul>
+                                <li>Разработка веб-сайтов</li>
+                                <li>Игровые консоли</li>
+                                <li>Умный дом</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div class="cta-buttons">
-                    <a href="specs.html" class="btn primary">Узнать больше</a>
-                    <a href="projects.html" class="btn secondary">Посмотреть проекты</a>
+
+                <h2>Полезные ссылки</h2>
+                <div class="contact-methods">
+                    <a href="mailto:iliebanda8@gmail.com" class="contact-link">
+                        <img src="images/email.svg" alt="Email" class="contact-icon">
+                        Email
+                    </a>
+                    <a href="https://github.com/IlieBanda" class="contact-link" target="_blank">
+                        <img src="images/github.svg" alt="GitHub" class="contact-icon">
+                        GitHub
+                    </a>
+                    <a href="https://t.me/nightcodder" class="contact-link" target="_blank">
+                        <img src="images/telegram.svg" alt="Telegram" class="contact-icon">
+                        Telegram
+                    </a>
+                    <a href="https://www.donationalerts.com/r/nightmoder?" class="contact-link" target="_blank">
+                        <img src="images/donation.svg" alt="DonationAlerts" class="contact-icon">
+                        DonationAlerts
+                    </a>
+                </div>
+
+                <div class="projects-showcase">
+                    <h2>Мои проекты</h2>
+                    <div class="project-list">
+                        <div class="project-item">
+                            <h3>Умный дом на Raspberry Pi</h3>
+                            <p>Система автоматизации домашних процессов с использованием Home Assistant.</p>
+                        </div>
+                        <div class="project-item">
+                            <h3>Сетевое хранилище</h3>
+                            <p>NAS сервер с резервным копированием и медиасервером Plex.</p>
+                        </div>
+                        <div class="project-item">
+                            <h3>Ретроконсоль</h3>
+                            <p>Сборник эмуляторов для запуска игр с различный платформ на Raspberry Pi (Lakka, RecalBox, RetroPie)</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -114,4 +141,4 @@
 
     <script src="script.js"></script>
 </body>
-</html>
+</html> 
